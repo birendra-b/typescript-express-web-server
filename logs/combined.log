@@ -1,0 +1,10 @@
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-15T08:03:29.105Z"}
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-15T08:04:51.034Z"}
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-29T05:11:48.632Z"}
+{"message":"Database intialized successfully","level":"info","timestamp":"2020-06-29T05:11:48.909Z"}
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-29T05:19:17.508Z"}
+{"message":"Database successfully initialized","level":"info","timestamp":"2020-06-29T05:19:17.703Z"}
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-29T06:06:50.652Z"}
+{"message":"Database successfully initialized","level":"info","timestamp":"2020-06-29T06:06:50.696Z"}
+{"message":"Express server started on port: 8081","level":"info","timestamp":"2020-06-29T08:51:55.993Z"}
+{"level":"error","timestamp":"2020-06-29T08:51:56.030Z"}
