@@ -1,13 +1,13 @@
 import supertest from 'supertest';
 import { getConnection } from 'typeorm';
 import { User } from "../src/entities/User";
-import initializeDB from "../src/db";
+import { intializeDB } from "../src/db";
 
 import { OK } from 'http-status-codes';
 import { Response, SuperTest, Test } from 'supertest';
 
-import app from '@server';
-import { pErr } from '@shared/functions';
+import app from '../src/Server';
+import { pErr } from '../src/shared/functions';
 
 
 describe('Users Routes', () => {
@@ -39,7 +39,7 @@ describe('Users Routes', () => {
 
     beforeAll(async () => {
         agent = supertest.agent(app);
-        await initializeDB();
+        await intializeDB();
         await destroyTestData();
         await createTestData();
     });

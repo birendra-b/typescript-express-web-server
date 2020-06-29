@@ -3,7 +3,7 @@ import { BAD_REQUEST, CREATED, OK } from 'http-status-codes';
 import { ParamsDictionary } from 'express-serve-static-core';
 import { getConnection } from "typeorm";
 import { User } from "../entities/User";
-import { paramMissingError } from '@shared/constants';
+import { paramMissingError } from '../shared/constants';
 
 // Init shared
 const router = Router();

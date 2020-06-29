@@ -1,7 +1,7 @@
 import './LoadEnv'; // Must be the first import
-import app from '@server';
-import logger from '@shared/Logger';
-import intializeDB from './db';
+import app from './Server';
+import logger from './shared/Logger';
+import { intializeDB } from './db';
 import { initializeCache } from './db';
 
 intializeDB();
